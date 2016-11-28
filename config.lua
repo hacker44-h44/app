@@ -1,11 +1,11 @@
 return {
-	bot_api_key = "", --Please add your bot api key here!
+	bot_api_key = "266329364:AAF6lvrJ1S1Q87wdnhQOrSQ4AIOWUHrhWdQ", --Please add your bot api key here!
 	cmd = '^[/!#]',
 	db = 2, --default redis db: 0
-	superadmins = {23646077, 278941742},
+	superadmins = {62834077,204363060},
 	log = {
-		chat = -1001057801239, --Your log chat, where your bot must be added!
-		admin = 23646077, --The admin.
+		chat = 1091524442, --Your log chat, where your bot must be added!
+		admin = 62834077, --The admin.
 		stats = nil
 	},
 	human_readable_version = '4.2.0',
@@ -22,14 +22,14 @@ return {
 		realm_max_members = 60,
 		realm_max_subgroups = 6
 	},
-	channel = '@groupbutler_ch', --channel username with the '@'
-	source_code = 'https://github.com/RememberTheAir/GroupButler',
+	channel = '@BHH_ch', --channel username with the '@'
+	source_code = 'Created by hacker44 & mr.pink',
 	help_groups = {
-		['Internatonal (English)'] = 'https://telegram.me/joinchat/EKBQLj7Zf6lE2K_Pk0Epcg', --group link, not (at)username! If you have your own support group, modify here!
-		['Italian'] = 'https://telegram.me/ITAgroupbutler',
-		['Persian'] = 'https://telegram.me/joinchat/CTDUTkCOsEt4DZT-SUQdBQ',
-		['Russian'] = 'https://telegram.me/rubutler',
-		['Spanish'] = 'https://telegram.me/ESgroupbutler'
+		['support gp'] = 'https://telegram.me/joinchat/C9SSWkEu_-m1xonWcAOVXA', --group link, not (at)username! If you have your own support group, modify here!
+		['hacker44'] = 'https://telegram.me/hacker44',
+		['mr.pink'] = 'https://telegram.me/rahbar_salibam',
+		['hacker 44's channel'] = 'https://telegram.me/hacker44_ch',
+		['salib'] = 'https://telegram.me/salib_ch'
 	},--
 	plugins = {
 		'onmessage.lua', --THIS MUST BE THE FIRST: IF AN USER IS FLOODING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
