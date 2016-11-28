@@ -28,7 +28,7 @@ return {
 		['support gp'] = 'https://telegram.me/joinchat/C9SSWkEu_-m1xonWcAOVXA', --group link, not (at)username! If you have your own support group, modify here!
 		['hacker44'] = 'https://telegram.me/hacker44',
 		['mr.pink'] = 'https://telegram.me/rahbar_salibam',
-		['hacker 44's channel'] = 'https://telegram.me/hacker44_ch',
+		['hacker 44 channel'] = 'https://telegram.me/hacker44_ch',
 		['salib'] = 'https://telegram.me/salib_ch'
 	},--
 	plugins = {
